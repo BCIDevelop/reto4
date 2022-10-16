@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+   height: 100%;
+   width: 100%;
+}
+button{
+    cursor: pointer;
+}
+.first-section{
+    background-position: center;
+    background: url(./images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 50px;
+
+}
+.first-section nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.first-section nav button{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px;
+    border: 1px solid;
+    width: 170px;
+    height: 40px;
+    font-weight: bold;
+}
+.head-wrapper{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-wrapper p{
+    padding: 25px 0px;
+    font-family: 'Poppins', sans-seri;
+    font-size: 18px;
+  
+}
+.head-wrapper div{
+    width: 600px;
+}
+.img-first{
+    width: 600px;
+}
+
+.btn-first,.card2 button {
+    background-color:hsl(322, 100%, 66%);
+    border-radius:20px;
+    border: 1px solid;
+    font-weight: 600;
+    height: 50px;
+    color: white;
+    padding: 0 50px;
+
+
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 100px;
+}
+
+/* section2 */
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    padding-bottom: 300px;
+    padding-top: 100px;
+}
+.card{
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    
+    box-shadow: 1px 1px 6px #0000004f;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px 20px 80px;
+    border-radius: 10px;
+   
+}
+.card img{
+    height: 300px;
+}
+.card div{
+    width: 380px;
+}
+.card p{
+    margin-top: 10px;
+    color: hsl(192, 100%, 9%);
+    opacity: 0.5;
+}
+.card2{
+    width: 650px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid;
+    box-shadow: 1px 5px 2px;
+    position: absolute;
+    top: 93%;
+    border-radius: 10px;
+    background-color: white;
+}
+.card2 button{
+    margin-top: 40px;
+    width: 300px;
+}
+/* Section3 */
+.section3{
+    background-color:hsl(192, 100%, 9%) ;
+    width:100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 50px 40px 80px;
+    color: white;
+}
+.container1 div{
+    margin-top: 20px;
+}
+.img-final{
+   color: white;
+   filter: brightness(0) invert(1);
+   width: 120px;
+   height: 25px;
+   
+ 
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    
+    width: 800px;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 600px;
+}
+.final div div{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.container1 span{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.social-container{
+    display: flex;
+    height: 90px;
+    align-items: end;
+}
+.social-container div i{
+    cursor: pointer;
+}
+.social-container div i:hover{
+    transform: scale(1.1);
+}
+
+.segundo {
+    padding-left: 180px;
+}
+.container1 a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.flex-geo{
+    display: flex;
+   
+}
+.flex-geo img{
+    height: 18px;
+}
+.flex-geo p{
+    margin-left: 15px;
+    font-size: 13px;
+}
+@media only screen and (min-width:375px) and (max-width:600px){
+        .first-section{
+            width: 100%;
+            padding: 20px;
+        }
+        .img-first{
+            width: 50%;
+            height: 50%;
+        }
+        .first-section h1{
+            font-size: 16px;
+        }
+        .head-wrapper div{
+            width: 200px;
+        }
+        .head-wrapper p{
+            font-size: 8px;
+            padding: 12px 0px;
+        }
+        .head-wrapper button{
+            width: 100px;
+            height: 25px;
+            font-size: 8px;
+            padding: 1px;
+        }
+        header nav img{
+            width: 150px;
+        }
+        header nav{
+            width: 100%;
+        }
+        .first-section nav button{
+            width: 120px;
+        }
+        .section2{
+            padding-top: 30px;
+            padding-bottom: 100px;
+        }
+        .card{
+            width: 90%;
+            height: 200px;
+        }
+        .card h2{
+            font-size: 1.3em;
+        }
+        .card p{
+            font-size: 10px;
+        }
+        .card img{
+            height: 95%;
+        }
+        .card div{
+            width: 120px;
+        }
+        .card2{
+            width: 300px;
+            height: 100px;
+        }
+        .card2 h2{
+            font-size: 1em;
+        }
+        .card2 button{
+            width: 88%;
+            margin-top: 20px;
+            height: 25px;
+        }
+        .section3{
+            height: 220px;
+            padding: 50px 20px 10px 30px;
+        }
+        .img-final{
+            width:60px;
+            height: 12px;
+        }
+        .flex-geo p{
+            font-size: 9px;
+        }
+        .container1{
+            width: 400px;
+        }
+        .container1 div img{
+            height: 10px;
+        }
+        .container1 span{
+            font-size: 10px;
+        }
+        .segundo{
+            padding-left: 40px;
+        }
+        .container1 a{
+            font-size: 10px;
+        }
+       .final{
+        height: 100%;
+       }
+       .container1 div{
+        margin-top: 10px;
+        width: 150px;
+       }
+       .social-container{
+        height: 55px;
+       }
+      
+
+}
+
+@media only screen and (min-width:600px) and (max-width:1000px){
+    .first-section{
+        width: 100%;
+        padding: 20px;
+    }
+    .img-first{
+        width: 50%;
+        height: 50%;
+    }
+    .first-section h1{
+        font-size: 20px;
+    }
+    .head-wrapper div{
+        width: 300px;
+    }
+    .head-wrapper p{
+        font-size: 10px;
+        padding: 12px 0px;
+    }
+    .head-wrapper button{
+        width: 120px;
+        height: 35px;
+        font-size: 10px;
+        padding: 1px;
+    }
+    header nav img{
+        width: 150px;
+    }
+    header nav{
+        width: 100%;
+    }
+    .first-section nav button{
+        width: 120px;
+    }
+    .section2{
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+    .card{
+        width: 90%;
+        height: 200px;
+    }
+    .card h2{
+        font-size: 1.3em;
+    }
+    .card p{
+        font-size: 12px;
+    }
+    .card img{
+        height: 95%;
+    }
+    .card div{
+        width: 120px;
+    }
+    .card2{
+        width: 300px;
+        height: 100px;
+    }
+    .card2 h2{
+        font-size: 1em;
+    }
+    .card2 button{
+        width: 88%;
+        margin-top: 20px;
+        height: 25px;
+    }
+    .section3{
+        height: 220px;
+        padding: 50px 20px 10px 30px;
+    }
+    .img-final{
+        width:60px;
+        height: 12px;
+    }
+    .flex-geo p{
+        font-size: 9px;
+    }
+    .container1{
+        width: 400px;
+    }
+    .container1 div img{
+        height: 10px;
+    }
+    .container1 span{
+        font-size: 10px;
+    }
+    .segundo{
+        padding-left: 40px;
+    }
+    .container1 a{
+        font-size: 10px;
+    }
+   .final{
+    height: 100%;
+   }
+   .container1 div{
+    margin-top: 10px;
+    width: 150px;
+   }
+   .social-container{
+    height: 55px;
+   }
+}
